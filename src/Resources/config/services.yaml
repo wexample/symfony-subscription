@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonySubscription\:
+        resource: '../../{Command,EventSubscriber,Repository,Service}'
+        # Registered by the extension, where symfony-activity is enabled.
+        exclude: '../../EventSubscriber/SubscriptionActivitySubscriber.php'
+
+    Wexample\SymfonySubscription\Service\SubscriptionPlanRegistry:
+        arguments:
+            $plans: '%wexample_symfony_subscription.plans%'
