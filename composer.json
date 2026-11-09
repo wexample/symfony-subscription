@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-subscription",
   "description": "Subscriptions for Symfony: an account on a plan, what it may still consume as the application measures it, refused once spent",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -23,7 +23,7 @@
     "symfony/security-core": "^7.4 || ^8.0",
     "wexample/symfony-helpers": ">=19.2.0",
     "wexample/symfony-security": ">=4.0.2",
-    "wexample/symfony-activity": ">=3.0.8"
+    "wexample/symfony-activity": ">=4.0.0"
   },
   "repositories": [
     {
