@@ -22,7 +22,8 @@
     "symfony/http-kernel": "^7.4 || ^8.0",
     "symfony/security-core": "^7.4 || ^8.0",
     "wexample/symfony-helpers": ">=19.2.0",
-    "wexample/symfony-security": ">=4.0.2"
+    "wexample/symfony-security": ">=4.0.2",
+    "wexample/symfony-activity": ">=3.0.8"
   },
   "repositories": [
     {
